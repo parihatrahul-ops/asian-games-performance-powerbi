@@ -25,6 +25,12 @@ India vs Asian giants. A lollipop chart of India against China, Japan and South 
 
 In Funding vs Glory, Gujarat sits at the top of the funding scale and has no medals. Haryana gets far less funding and has the most medals of the five states shown. In this data, more money didn't mean more medals.
 
+Where We Win: Top SportsAthletics is our biggest strength, driving 24 of the 85 total medals. Shooting (15) and Archery (9) follow closely behind. This shows that while we compete across the board, our podium finishes are heavily anchored by a few core disciplines. 
+
+A Perfectly Balanced Effort: Gender ShareThe data shows a remarkably equal playing field. Men and women contributed equally to the final tally, each securing exactly 44.71% of the medals. With mixed events bringing in the remaining 10.59%, it’s clear that female athletes are an equal driving force behind the nation's success.   
+
+The Bigger Picture: India vs. Asian GiantsIndia sits at a proud 4th place overall with 85 medals. However, this chart puts our standing into perspective against the continent's heavyweights—China (341), Japan (269), and South Korea (150). We are comfortably leading the rest of the pack, but there is still significant ground to cover to catch up to the top three.
+
 ## One modelling decision
 
 The country medal table has one row per country, so it can't join to the main medals table, which only covers India by sport and gender. I didn't force a relationship. I wrote a measure that reads the medal filter directly, so the India vs Asian Giants chart reacts to the medal filter and ignores gender and sport. That's on purpose.
